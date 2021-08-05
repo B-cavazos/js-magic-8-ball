@@ -44,8 +44,8 @@ button.addEventListener('click', function() {
     form.style.display = "none";
     eightBall.src=answers[Math.floor(Math.random()*19)];
     invite.classList.add('color-change')
+
+    
 }
 
 });
-
-console.log(question.value);
