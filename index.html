@@ -12,6 +12,7 @@
 </head>
 
 <body>
+
     <div class="container">
         <div class="title">
             <h1>The Magic 8-Ball</h1>
@@ -28,12 +29,23 @@
         <div class="form-box">
             <h2 class="invite-text">You may ask anything</h2>
             <form class="form">
-                <input class="question" type="text" name="question" placeholder="... as long as its a yes or no question" >
+                <input id="question" type="text" name="question" placeholder="... as long as its a yes or no question" >
                 <button class="button" type="button">The ball Knows All</button>
             </form>
         </div>        
     </div>
 
+    <div class="clouds">
+        
+        <div id="right-cloud" class="both-clouds">
+            <img  src="img/clouds.svg" alt="left cloud" />
+        </div>
+
+        <div id="left-cloud" class="both-clouds">
+            <img src="img/clouds.svg" alt="right cloud" />
+        </div>
+        
+    </div>
 </body>
 
 </html>
