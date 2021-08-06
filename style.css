@@ -1,3 +1,4 @@
+/* Global tags */
 body{
     font-family: 'Montserrat', sans-serif;
     overflow: hidden;
@@ -26,6 +27,7 @@ h2{
     letter-spacing: 2px;
 }
 
+/* classes */
 .container{
     height: 80vh;
     display: flex;
@@ -85,6 +87,8 @@ button{
     background-color: goldenrod;
     color: white;
 }
+
+/* Animation */
 
 .both-clouds{
     width: 75%;

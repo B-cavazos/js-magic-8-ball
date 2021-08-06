@@ -26,14 +26,9 @@ let answers = [
     "./img/magic8ball_19.png",
     "./img/magic8ball_20.png"
 ];
-let validQuestions = ["does", "will", "can", "if"];
-
-//onclick
-    //replace 8-ball with random answer
-    //replace input with text
-    //update button to Try again
 
 button.addEventListener('click', function() {
+
     if(!question.value){
         alert("You need type your question first.");
 
@@ -43,9 +38,7 @@ button.addEventListener('click', function() {
     invite.innerText="The 8-Ball has spoken.";
     form.style.display = "none";
     eightBall.src=answers[Math.floor(Math.random()*19)];
-    invite.classList.add('color-change')
-
+    invite.classList.add('color-change')    
+    }
     
-}
-
 });
